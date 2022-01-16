@@ -11,3 +11,4 @@ mvn test "-Dkarate.options=--tags @pets"
 Where the annotations are
 * pets
 * user
+* regression
