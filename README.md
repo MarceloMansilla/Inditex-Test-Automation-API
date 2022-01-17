@@ -1,6 +1,11 @@
 # Inditext-Test-Automation-API
 Automation framework developed with Karate
 
+## Pre-requirement
+* VS Code
+* Docker
+* Node v12.16.3
+* Kali Linux - Ettercap
 
 ## Run
 To run test by annotation
