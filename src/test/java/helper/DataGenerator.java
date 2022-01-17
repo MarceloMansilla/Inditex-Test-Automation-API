@@ -12,7 +12,7 @@ public class DataGenerator {
     }
 
     public static String getUsername() {
-        return faker.name().firstName();
+        return faker.name().username();
     }
 
     public static String getFirstname() {
@@ -38,7 +38,7 @@ public class DataGenerator {
     public static JSONObject getUser() {
 
         String id = Integer.toString(faker.number().numberBetween(1, 1000));
-        String username = faker.name().firstName();
+        String username = faker.name().username();
         String firstName = faker.name().firstName();
         String lastName = faker.internet().emailAddress();
         String email = faker.internet().emailAddress();

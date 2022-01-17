@@ -15,8 +15,11 @@ Feature: user crud
 
   @user @regression
   Scenario: get user created
+    #* configure retry = {count: 3, interval: 1000}
+    #* def sleep = function(pause){ java.lang.Thread.sleep(pause) }
     Given path '/user/'
     And path user.username
     When method get
+    #* eval sleep(10000)
     Then status 200
     And match response contains user
