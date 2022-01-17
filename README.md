@@ -18,3 +18,9 @@ To run the test by using Docker, use the following command
 ```docker
 docker-compose up --build
 ```
+
+## MAven
+To run the test by using Maven, use the following command
+```maven
+mvn clean test
+```
