@@ -1,8 +1,8 @@
 # Inditext-Test-Automation-API
 Automation framework developed with Karate
 
-## Pre-requirement
-I chose Karate framework to develop the solution in order to push myself to learn a new tool in a short time and put it practice asap. Beside to incorporate knowledge and be ready for the challenge.
+## Why I chose
+I chose Karate framework to develop the solution in order to push myself to learn a new tool in a short time and put it practice asap. Beside to incorporate knowledge and be ready for the challenge. Even no having kknowledge about the framework, I wanted to show my soft skill for self-learning, self-motivated, empowerment and engagement which are the value that represent me. 
 
 ## Pre-requirement
 * VS Code
